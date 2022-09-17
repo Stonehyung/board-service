@@ -1,5 +1,5 @@
 import { ConsoleLogger, Injectable } from '@nestjs/common';
-import { BoardStatus } from '../board/board.status'
+import { BoardStatus } from './board.status'
 import { v1 as uuid } from 'uuid'
 @Injectable()
 export class BoardService {
